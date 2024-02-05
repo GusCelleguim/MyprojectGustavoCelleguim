@@ -126,8 +126,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Descomplica",
+      logo: require("./assets/images/descomplica.png"),
+      subHeader: "software engineering",
+      duration: "September 2013 - April 2017",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+
+    {
       schoolName: "Faculdade de Tecnologia de São Paulo",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/Logo-fmu.jpg"),
       subHeader: "Systems development analysis ",
       duration: "June 2023 - April 2024",
       desc: "project planning and development, software engineering, database, web development, mobile development, and software testing.",
@@ -138,7 +147,7 @@ const educationInfo = {
 
     {
       schoolName: "Origamid - Web Design",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/origamid.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "November 2023 - April 2025",
       desc: "Participated in the research of XXX and published 3 papers.",
@@ -185,25 +194,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      href: "https://www.linkedin.com/in/gustavocelleguim/",
       role: "Spider-Men | Digital Inovetion One",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "Dio-Project",
+      companylogo: require("./assets/images/spidermen-logo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "The Digital Innovation One (DIO) project is an enriching journey focused on React, web design and essential tools like Figma and NPM. Aimed at developers looking to improve their skills, the program offers a solid foundation in React, introducing key concepts and interactive development practices. Furthermore, it highlights the importance of design in creating intended interfaces, using Figma to teach design and prototyping principles. Introduction to NPM as a package management tool reinforces the technical knowledge necessary for efficient web application development. This project is ideal for anyone who wants to delve into front-end development, combining theory and practice to build modern and practical web solutions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Front-End Development,",
+        "npm introdution and ui/ux design with figma"
       ]
     },
 
     {
-      role: "Front-End Developer - Introduction to Web Development",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      href: "https://www.linkedin.com/in/gustavocelleguim/",
+      role: "Front-end developer | introduction development web",
+      company: "Rocketseat",
+      companylogo: require("./assets/images/gustavo-profile.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "My Profile project is a hands-on introduction to web development, designed to teach basics of HTML, CSS, JavaScript, and Git. Through this project, students create a personal online profile, a digital portfolio where they can present their skills and projects. This exercise not only reinforces theoretical learning, but also provides real-world experience in building web pages and using version control with Git. Its a valuable opportunity for beginners to develop their skills in fundamental web technologies, culminating in the creation of a final product that serves both as practice and as a demonstration of their skills to the world."
     },
+
     {
+      href: "https://www.linkedin.com/in/gustavocelleguim/",
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
@@ -368,10 +381,6 @@ const contactInfo = {
 
 // Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 

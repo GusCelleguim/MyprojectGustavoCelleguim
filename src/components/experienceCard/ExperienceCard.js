@@ -55,7 +55,9 @@ export default function ExperienceCard({cardInfo, isDark}) {
               : "experience-text-role"
           }
         >
-          {cardInfo.role}
+          <a href={cardInfo.href} target="_blank">
+            {cardInfo.role}
+          </a>
         </h5>
         <h5
           className={
