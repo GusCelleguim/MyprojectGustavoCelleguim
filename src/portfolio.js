@@ -37,6 +37,9 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/GusCelleguim",
+  discord: "https://discord.com/users/677572342972678145",
+  medium: "https://medium.com/@gugacelleguim/",
+  stackoverflow: "https://stackoverflow.com/users/16239839/gustavo-celleguim",
   linkedin: "https://www.linkedin.com/in/gustavocelleguim/",
   gmail: "Gugacelleguim@gmail.com",
 
@@ -277,9 +280,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Dio-Botcamp - carrefour ",
       subtitle:
-        "First Pakistani  to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Introduction to development logic and programming with C,C++,C#,Java,Python,JavaScript,Typescript,Node.js,React,React Native,Flutter,Swift, Kotlin, .NET, SQL, HTML, CSS, Git and GitHub.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
 
@@ -339,12 +342,12 @@ const blogSection = {
   blogs: [
     {
       url: "https://medium.com/@gugacelleguim/unlocking-the-power-of-markdown-a-game-changer-for-developers-projects-80cced475f3c",
-      title: "",
+      title: "Unlocking the Power of Markdown for Developers Projects",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
+        "Markdown is the key to transforming digital content creation and sharing, streamlining processes with efficiency and clarity. It enables anyone to easily create structured documents, fostering innovative and borderless collaboration. Adopt Markdown and be at the forefront of digital communication, turning ideas into reality with precision.",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com/@gugacelleguim/revolutionizing-web-development-the-unstoppable-impact-of-react-d3138708ac6c",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
@@ -355,22 +358,22 @@ const blogSection = {
 
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
+// const talkSection = {
+//   title: "TALKS",
+//   subtitle: emoji(
+//     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+//   ),
 
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
-    },
-  ],
-  display: true, // Set false to hide this section, defaults to true
-};
+//   talks: [
+//     {
+//       title: "Build Actions For Google Assistant",
+//       subtitle: "Codelab at GDG DevFest Karachi 2019",
+//       slides_url: "https://bit.ly/saadpasta-slides",
+//       event_url: "https://www.facebook.com/events/2339906106275053/",
+//     },
+//   ],
+//   display: true, // Set false to hide this section, defaults to true
+// };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -397,7 +400,7 @@ export {
   bigProjects,
   achievementSection,
   blogSection,
-  talkSection,
+  // talkSection,
   contactInfo,
   isHireable,
 };
